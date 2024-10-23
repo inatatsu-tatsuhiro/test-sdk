@@ -1,12 +1,11 @@
 {
-  "name": "@opening-line/test-sdk",
+  "name": "@inatatsu-tatsuhiro/test-sdk",
   "version": "0.0.1",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
