@@ -1,0 +1,5 @@
+# Ignore bundler config
+node_modules
+
+# Ignore the build directory
+dist

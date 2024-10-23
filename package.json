@@ -1,0 +1,24 @@
+{
+  "name": "@opening-line/test-sdk",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts --minify",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
